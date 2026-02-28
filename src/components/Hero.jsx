@@ -25,11 +25,11 @@ export default function Hero() {
             </div>
 
             <div className="mt-20 text-black md:text-xl flex">
-                <button className="bg-gray-500 hover:bg-gray-300 p-3 md:px-7 px-4 rounded-xl border-black mx-6"
+                <button className="bg-gray-500 hover:bg-gray-300  md:px-7 rounded-xl w-1/2 border-black mx-6"
                     type="button"
                     onClick={() => scrollToSection("About")}>Voir mes projets</button>
 
-                <button className="bg-gray-500 hover:bg-gray-300 p-3 md:px-10 px-8 rounded-xl border-black mx-6"
+                <button className="bg-gray-500 hover:bg-gray-300  md:px-10 rounded-xl w-1/2 border-black mx-6"
                     onClick={() => scrollToSection("contact")}>Me contacter</button>
             </div>
 
