@@ -1,6 +1,6 @@
 import { AuroraText } from "./ui/aurora-text";
 import { TypingAnimation } from "./ui/typing-animation";
-import { Github, Mail, Linkedin } from 'lucide-react';
+import { Github, Mail, Linkedin, ArrowDown } from 'lucide-react';
 
 
 
@@ -28,41 +28,43 @@ export default function Hero() {
 
 
             <div className="flex flex-col text-gray-500 items-center md:mt-20 mt-5">
-                <AuroraText className="md:text-4xl text-xl font-bold">RECHERCHE ALTERNANCE</AuroraText>
-                <TypingAnimation className="md:text-3xl text-lg font-semibold">Septembre 2026 / 14 mois</TypingAnimation>
+                <AuroraText className="md:text-4xl text-lg font-bold">RECHERCHE ALTERNANCE</AuroraText>
+                <TypingAnimation className="md:text-3xl text-sm font-semibold">Septembre 2026 / 14 mois</TypingAnimation>
             </div>
 
 
-            <div className="mt-5 md:gap-7 gap-4.5 flex">
+            <div className="mt-10 md:gap-7 gap-4.5 flex">
                 <a className="text-gray-500 hover:text-gray-300"
                     href="https://github.com/lblrs"
                     target="_blank">
-                    <Github></Github>
+                    <Github className="md:w-10 w-5"></Github>
                 </a>
 
                 <a className="text-gray-500 hover:text-gray-300"
                     href=""
                     target="_blank">
-                    <Linkedin></Linkedin>
+                    <Linkedin className="md:w-10 w-5"></Linkedin>
                 </a>
 
                 <a className="text-gray-500 hover:text-gray-300"
                     href="mailto:dawid.wieclaw@epitech.eu"
                     target="_blank">
-                    <Mail></Mail>
+                    <Mail className="md:w-10 w-5"></Mail>
                 </a>
 
-                <a className=" md:text-2xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
+                <a className=" md:text-2xl text-xl text-center font-bold text-gray-500 hover:text-gray-300 md:w-10 w-5"
                     href="img/Dawid-Wieclaw-CV.pdf"
                     target="_blank">
                     CV
                 </a>
             </div>
 
-            <div>
-                <button className="bg-slate-900 md:px-15 px-10 md:py-2 py-0.5 mt-15 text-gray-400 md:text-2xl rounded-md hover:bg-slate-800"
-                    type="button"
-                    onClick={() => scrollToSection('Projects')}>Projets</button>
+            <div className="mt-25">
+                <a className=" md:text-2xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
+                    onClick={() => scrollToSection("Projects")}
+                    >
+                    <ArrowDown></ArrowDown>
+                </a>
             </div>
 
 
