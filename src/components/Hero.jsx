@@ -18,7 +18,6 @@ export default function Hero() {
     return (
 
             <div className="min-h-screen text-white flex flex-col items-center justify-center relative bg-black">
-                <DotPattern></DotPattern>
 
                 <div className="flex md:text-9xl text-5xl font-bold">
                     <AuroraText>Dawid&nbsp;</AuroraText>
