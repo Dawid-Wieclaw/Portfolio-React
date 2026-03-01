@@ -50,7 +50,7 @@ export default function Hero() {
                     <Mail></Mail>
                 </a>
 
-                <a className=" text-2xl text-gray-500 hover:text-gray-300"
+                <a className=" md:text-2xl text-xl text-center text-gray-500 hover:text-gray-300"
                     href="src/assets/Dawid-Wieclaw-CV.pdf"
                     target="_blank">
                     CV
