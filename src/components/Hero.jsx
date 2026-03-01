@@ -1,8 +1,6 @@
 import { AuroraText } from "./ui/aurora-text";
 import { TypingAnimation } from "./ui/typing-animation";
-import { DotPattern } from "./ui/dot-pattern";
 import { Github, Mail, Linkedin } from 'lucide-react';
-import { ScrollVelocityContainer, ScrollVelocityRow } from "@/components/ui/scroll-based-velocity"
 
 
 

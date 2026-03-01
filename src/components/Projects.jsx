@@ -1,5 +1,4 @@
 import { ScrollVelocityContainer, ScrollVelocityRow } from "@/components/ui/scroll-based-velocity"
-import { MagicCard } from "./ui/magic-card"
 import { BorderBeam } from "./ui/border-beam"
 
 export default function Projects() {
