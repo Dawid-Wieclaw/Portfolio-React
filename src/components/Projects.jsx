@@ -1,12 +1,13 @@
 import { ScrollVelocityContainer, ScrollVelocityRow } from "@/components/ui/scroll-based-velocity"
+import { MagicCard } from "./ui/magic-card"
+import { BorderBeam } from "./ui/border-beam"
 
 export default function Projects() {
 
     return (
-        <div id="Projects" className="bg-black h-screen pt-25">
+        <div id="Projects" className="bg-black h-screen w-screen pt-25">
             <div className=" bg-black py-10 ">
                 <ScrollVelocityContainer className="opacity-50">
-
                     <ScrollVelocityRow baseVelocity={5}>
                         <div className="flex md:gap-20 gap-10 text-white">
                             <p className="flex items-center text-xl gap-4 font-semibold"><img src="img/javascript.svg" className="md:h-15 h-10"></img>JavaScript</p>
@@ -24,10 +25,17 @@ export default function Projects() {
                             <p className="flex items-center text-xl gap-4 font-semibold mr-15"><img src="img/css-3.svg" className="md:h-15 h-10"></img>CSS</p>
                         </div>
                     </ScrollVelocityRow>
-
                 </ScrollVelocityContainer>
 
             </div>
+
+
+            {/* <div className="flex justify-center items-center">
+                <div className="relative h-250 bg-zinc-800 m-50 w-full overflow-hidden">
+                    <BorderBeam />
+                </div>
+
+            </div> */}
         </div>
     )
 }

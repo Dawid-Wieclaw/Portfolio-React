@@ -8,7 +8,6 @@ function App() {
     <div>
       <Hero></Hero>
       <Projects></Projects>
-      <Skills></Skills>
     </div>
   )
   
