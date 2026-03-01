@@ -29,9 +29,9 @@ export default function Hero() {
             <p className="md:text-4xl text-2xl text-gray-600 ">Web Developer</p>
 
 
-            <div className="flex flex-col text-gray-400 items-center md:mt-20 mt-5">
-                <AuroraText className="md:text-4xl text-xl ">RECHERCHE ALTERNANCE</AuroraText>
-                <TypingAnimation className="md:text-3xl text-lg">Septembre 2026 / 14 mois</TypingAnimation>
+            <div className="flex flex-col text-gray-500 items-center md:mt-20 mt-5">
+                <AuroraText className="md:text-4xl text-xl font-bold">RECHERCHE ALTERNANCE</AuroraText>
+                <TypingAnimation className="md:text-3xl text-lg font-semibold">Septembre 2026 / 14 mois</TypingAnimation>
             </div>
 
 
@@ -54,7 +54,7 @@ export default function Hero() {
                     <Mail></Mail>
                 </a>
 
-                <a className=" md:text-2xl text-xl text-center text-gray-500 hover:text-gray-300"
+                <a className=" md:text-2xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
                     href="img/Dawid-Wieclaw-CV.pdf"
                     target="_blank">
                     CV

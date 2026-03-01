@@ -7,17 +7,17 @@ export function TypingAnimation({
   children,
   words,
   className,
-  duration = 100,
+  duration = 85,
   typeSpeed,
   deleteSpeed,
   delay = 0,
-  pauseDelay = 1000,
-  loop = false,
+  pauseDelay = 5000,
+  loop = true,
   as: Component = "span",
   startOnView = true,
   showCursor = false,
   blinkCursor = true,
-  cursorStyle = "line",
+  cursorStyle = "underscore",
   ...props
 }) {
   const MotionComponent = motion.create(Component, {
@@ -133,9 +133,11 @@ export function TypingAnimation({
   return (
     <MotionComponent
       ref={elementRef}
-      className={cn("leading-[5rem] tracking-[-0.02em]", className)}
-      {...props}>
-      {displayedText}
+      className={cn("leading-20 tracking-[-0.02em]", className)}
+      {...props}
+    >
+      {displayedText === "" ? "\u00A0" : displayedText}
+
       {shouldShowCursor && (
         <span className={cn("inline-block", blinkCursor && "animate-blink-cursor")}>
           {getCursorChar()}

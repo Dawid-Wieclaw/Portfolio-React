@@ -4,7 +4,7 @@ export default function Projects() {
 
     return (
         <div id="Projects" className="bg-black h-screen pt-25">
-            <div className=" bg-black py-10 ">
+            <div className=" bg-black py-10 md:mx-50">
                 <ScrollVelocityContainer className="opacity-50">
                     <ScrollVelocityRow baseVelocity={5}>
                         <div className="flex md:gap-20 gap-10">
