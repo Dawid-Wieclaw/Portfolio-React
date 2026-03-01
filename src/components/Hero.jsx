@@ -25,13 +25,13 @@ export default function Hero() {
             <p className="md:text-4xl text-2xl text-gray-600 ">Web Developer</p>
 
 
-            <div className="flex flex-col text-gray-400 items-center mt-20">
+            <div className="flex flex-col text-gray-400 items-center md:mt-20 mt-5">
                 <AuroraText className="md:text-4xl text-2xl ">RECHERCHE ALTERNANCE</AuroraText>
                 <TypingAnimation className="md:text-3xl text-xl">Septembre 2026 / 14 mois</TypingAnimation>
             </div>
 
 
-            <div className="mt-10 gap-10 flex">
+            <div className="mt-10 md:gap-10 gap-4.5 flex">
                 <a className="text-gray-500 hover:text-gray-300"
                     href="https://github.com/lblrs"
                     target="_blank">
