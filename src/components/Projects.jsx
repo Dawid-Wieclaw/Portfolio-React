@@ -5,7 +5,7 @@ export default function Projects() {
 
     return (
         <div id="Projects" className="bg-black h-screen w-screen">
-            <div className=" bg-black py-10 ">
+            <div className=" bg-black md:py-15">
                 <ScrollVelocityContainer className="opacity-50">
                     <ScrollVelocityRow baseVelocity={5}>
                         <div className="flex md:gap-20 gap-8 text-white">
@@ -16,7 +16,7 @@ export default function Projects() {
                         </div>
                     </ScrollVelocityRow>
 
-                    <ScrollVelocityRow baseVelocity={-3} className="md:pt-10 pt-5">
+                    <ScrollVelocityRow baseVelocity={-4} className="md:pt-10 pt-5">
                         <div className="flex md:gap-20 gap-8 text-white">
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/php.svg" className="md:h-15 h-5"></img>PHP</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold "><img src="img/html-5.svg" className="md:h-15 h-5"></img>HTML</p>
