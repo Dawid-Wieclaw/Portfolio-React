@@ -28,8 +28,8 @@ export default function Hero() {
 
 
                 <div className="flex flex-col text-gray-400 items-center md:mt-20 mt-5">
-                    <AuroraText className="md:text-4xl text-2xl ">RECHERCHE ALTERNANCE</AuroraText>
-                    <TypingAnimation className="md:text-3xl text-xl">Septembre 2026 / 14 mois</TypingAnimation>
+                    <AuroraText className="md:text-4xl text-xl ">RECHERCHE ALTERNANCE</AuroraText>
+                    <TypingAnimation className="md:text-3xl text-lg">Septembre 2026 / 14 mois</TypingAnimation>
                 </div>
 
 
