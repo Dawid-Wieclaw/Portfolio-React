@@ -42,7 +42,7 @@ export function DotPattern({
   cy = 1,
   cr = 1,
   className,
-  glow = true,
+  glow = false,
   ...props
 }) {
   const id = useId()
@@ -99,11 +99,11 @@ export function DotPattern({
           cy={dot.y}
           r={cr}
           fill={glow ? `url(#${id}-gradient)` : "currentColor"}
-          initial={glow ? { opacity: 0.3, scale: 0.5 } : {}}
+          initial={glow ? { opacity: 0.4, scale: 1 } : {}}
           animate={
             glow
               ? {
-                  opacity: [0.3, 0.3, 0.3],
+                  opacity: [0.4, 1, 0.4],
                   scale: [1, 1.5, 1],
                 }
               : {}

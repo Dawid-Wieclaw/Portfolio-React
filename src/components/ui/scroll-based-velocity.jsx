@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState, useContext } from "react" 
+import React, { useContext, useEffect, useRef, useState } from "react"
 import {
   motion,
   useAnimationFrame,
@@ -126,26 +126,20 @@ function ScrollVelocityRowImpl({
     return `${-wrap(0, width, offset)}px`;
   })
 
-  useAnimationFrame((_, delta) => {
+useAnimationFrame((_, delta) => {
     if (!isInViewRef.current || !isPageVisibleRef.current) return
+    
     const dt = delta / 1000
-    const vf = velocityFactor.get()
-    const absVf = Math.min(5, Math.abs(vf))
-    const speedMultiplier = prefersReducedMotionRef.current ? 1 : 1 + absVf
-
-    if (absVf > 0.1) {
-      const scrollDirection = vf >= 0 ? 1 : -1
-      currentDirectionRef.current = baseDirectionRef.current * scrollDirection
-    }
-
     const bw = unitWidth.get() || 0
     if (bw <= 0) return
+
+    // Vitesse fixe basée uniquement sur baseVelocity
     const pixelsPerSecond = (bw * baseVelocity) / 100
-    const moveBy =
-      currentDirectionRef.current * pixelsPerSecond * speedMultiplier * dt
+    const moveBy = baseDirectionRef.current * pixelsPerSecond * dt
+    
     baseX.set(baseX.get() + moveBy)
   })
-
+  
   return (
     <div
       ref={containerRef}

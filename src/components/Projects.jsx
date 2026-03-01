@@ -1,14 +1,21 @@
 import { ScrollVelocityContainer, ScrollVelocityRow } from "@/components/ui/scroll-based-velocity"
 
 export default function Projects() {
+
     return (
-        <div className="h-screen bg-neutral-950 py-10">
-            <ScrollVelocityContainer>
-                <ScrollVelocityRow baseVelocity={3} className="text-6xl font-bold">
-                    DAWID WIECLAW  •  FULL STACK DEVELOPER  •
-                </ScrollVelocityRow>
-                <ScrollVelocityRow baseVelocity={-3} className="text-6xl font-bold text-gray-500">
-                    RECHERCHE ALTERNANCE  •  SEPTEMBRE 2026  •
+        <div id="Projects" className="h-screen bg-black py-10">
+            <ScrollVelocityContainer className="opacity-50">
+                <ScrollVelocityRow baseVelocity={3}>
+                    <div className="flex gap-20">
+                        <img src="public/img/html-5.svg" className="h-15"></img>
+                        <img src="public/img/react.svg" className="h-15"></img>
+                        <img src="public/img/tailwindcss-icon.svg" className="h-15"></img>
+                        <img src="public/img/php.svg" className="h-15"></img>
+                        <img src="public/img/javascript.svg" className="h-15"></img>
+                        <img src="public/img/css-3.svg" className="h-15"></img>
+                        <img src="public/img/laravel.svg" className="h-15"></img>
+                        <img src="public/img/bootstrap.svg" className="h-15 mr-15"></img>
+                    </div>
                 </ScrollVelocityRow>
             </ScrollVelocityContainer>
         </div>
