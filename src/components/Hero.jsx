@@ -33,7 +33,7 @@ export default function Hero() {
             </div>
 
 
-            <div className="mt-10 md:gap-7 gap-4.5 flex">
+            <div className="md:mt-10 mt-5 md:gap-7 gap-4.5 flex">
                 <a className="text-gray-500 hover:text-gray-300"
                     href="https://github.com/lblrs"
                     target="_blank">
