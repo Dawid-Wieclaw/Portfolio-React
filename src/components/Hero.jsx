@@ -1,6 +1,7 @@
 import { AuroraText } from "./ui/aurora-text";
 import { RainbowButton, rainbowButtonVariants } from "./ui/rainbow-button";
 import { ShimmerButton } from "./ui/shimmer-button";
+import { TypingAnimation } from "./ui/typing-animation";
 
 export default function Hero() {
 
@@ -18,14 +19,15 @@ export default function Hero() {
 
             <div className="flex md:text-9xl text-5xl font-bold">
                 <AuroraText>Dawid&nbsp;</AuroraText>
-                <h2 className="text-gray-500">Wieclaw</h2>
+                <h2 className="text-gray-400">Wieclaw</h2>
             </div>
 
             <p className="md:text-4xl text-2xl text-gray-600 ">Web Developer</p>
 
-            <div className="flex flex-col text-gray-300 items-center mt-10">
-               <AuroraText className="text-5xl"> RECHERCHE ALTERNANCE </AuroraText>
-                <AuroraText className="text-3xl"> Septembre 2026 / 14 mois</AuroraText>
+            <div className="flex flex-col text-gray-400 items-center mt-10">
+               <p className="md:text-5xl text-2xl ">RECHERCHE ALTERNANCE</p>
+               <TypingAnimation className="md:text-3xl text-xl">Septembre 2026 / 14 mois</TypingAnimation>
+                
             </div>
 
             <div className="mt-15 text-black md:text-xl text-xs flex">
