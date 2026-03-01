@@ -21,7 +21,7 @@ export default function Projects() {
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/php.svg" className="md:h-15 h-5"></img>PHP</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold "><img src="img/html-5.svg" className="md:h-15 h-5"></img>HTML</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold "><img src="img/laravel.svg" className="md:h-15 h-5"></img>Laravel</p>
-                            <p className="flex items-center md:text-xl gap-2 font-semibold md:mr-15 mr-8"><img src="img/css-3.svg" className="md:h-15 h-5"></img>CSS</p>
+                            <p className="flex items-center md:text-xl gap-2 font-semibold md:mr-18 mr-8"><img src="img/css-3.svg" className="md:h-15 h-5"></img>CSS</p>
                         </div>
                     </ScrollVelocityRow>
                 </ScrollVelocityContainer>
