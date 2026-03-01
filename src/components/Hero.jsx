@@ -55,7 +55,7 @@ export default function Hero() {
                 </a>
 
                 <a className=" md:text-2xl text-xl text-center text-gray-500 hover:text-gray-300"
-                    href="Dawid-Wieclaw-CV.pdf"
+                    href="img/Dawid-Wieclaw-CV.pdf"
                     target="_blank">
                     CV
                 </a>
