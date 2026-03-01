@@ -24,12 +24,12 @@ export default function Hero() {
                 <p className="md:text-4xl mt-2">Septembre 2026 / 14 mois</p>
             </div>
 
-            <div className="mt-20 text-black md:text-xl text-xs flex">
-                <button className="bg-gray-500 hover:bg-gray-300 md:p-3  md:px-7 rounded-lg p-2 mx-6"
+            <div className="mt-15 text-black md:text-xl text-xs flex">
+                <button className="bg-gray-500 hover:bg-gray-300 md:p-3  md:px-7 rounded-lg p-2 mx-3"
                     type="button"
                     onClick={() => scrollToSection("Projects")}>Voir mes projets</button>
 
-                <button className="bg-gray-500 hover:bg-gray-300 md:p-3 md:px-10 rounded-lg p-2 px-4 mx-6"
+                <button className="bg-gray-500 hover:bg-gray-300 md:p-3 md:px-10 rounded-lg p-2 px-4 mx-3"
                     onClick={() => scrollToSection("Contact")}>Me contacter</button>
             </div>
 
