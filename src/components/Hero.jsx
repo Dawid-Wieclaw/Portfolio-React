@@ -35,7 +35,7 @@ export default function Hero() {
             </div>
 
 
-            <div className="mt-10 md:gap-10 gap-4.5 flex">
+            <div className="mt-5 md:gap-7 gap-4.5 flex">
                 <a className="text-gray-500 hover:text-gray-300"
                     href="https://github.com/lblrs"
                     target="_blank">
@@ -62,7 +62,7 @@ export default function Hero() {
             </div>
 
             <div>
-                <button className="bg-gray-900 px-15 py-2 mt-10"
+                <button className="bg-slate-900 md:px-15 px-10 md:py-2 py-0.5 mt-15 text-gray-400 md:text-2xl rounded-md hover:bg-slate-800"
                     type="button"
                     onClick={() => scrollToSection('Projects')}>Projets</button>
             </div>
