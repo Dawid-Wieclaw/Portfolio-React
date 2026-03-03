@@ -1,5 +1,4 @@
 import { AuroraText } from "../components/ui/aurora-text";
-import { TypingAnimation } from "../components/ui/typing-animation";
 import { Github, Mail, Linkedin, ArrowDown } from 'lucide-react';
 
 
@@ -29,7 +28,7 @@ export default function Hero() {
 
             <div className="flex flex-col text-gray-500 items-center md:mt-20 mt-5">
                 <AuroraText className="md:text-4xl text-lg font-bold">RECHERCHE ALTERNANCE</AuroraText>
-                <TypingAnimation className="md:text-3xl text-sm font-semibold">Septembre 2026 / 14 mois</TypingAnimation>
+                <p className="md:text-3xl text-sm font-semibold">Septembre 2026 / 14 mois</p>
             </div>
 
 
@@ -62,7 +61,7 @@ export default function Hero() {
             <div className="mt-25">
                 <a className=" md:text-2xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
                     onClick={() => scrollToSection("Projects")}
-                    >
+                >
                     <ArrowDown></ArrowDown>
                 </a>
             </div>

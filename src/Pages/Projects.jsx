@@ -38,7 +38,10 @@ export default function Projects() {
     return (
         <div id="Projects" className="bg-black min-h-screen flex flex-col items-center">
 
-            <Technos></Technos>
+
+            <div>
+                <Technos></Technos>
+            </div>
 
             <div className=" flex-1 m-10 mx-50">
                 <div className="grid md:grid-cols-3 gap-50 p-10">
@@ -46,7 +49,7 @@ export default function Projects() {
                         <ProjectCard key={p.id} {...p} />
                     ))}
                 </div>
-            </div>  
+            </div>
 
         </div>
     )
