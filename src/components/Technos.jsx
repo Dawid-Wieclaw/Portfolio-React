@@ -6,9 +6,9 @@ export default function Technos() {
         <>
             <div className=" bg-black md:py-5">
                 <ScrollVelocityContainer className="opacity-50">
-                    <ScrollVelocityRow baseVelocity={2}>
+                    <ScrollVelocityRow baseVelocity={3}>
                         <div className="flex md:gap-16 gap-8 text-white">
-                            <p className="flex items-center md:text-xl gap-2 font-semibold ml-14"><img src="img/laravel.svg" className="md:h-5 h-5"></img>Laravel</p>
+                            <p className="flex items-center md:text-xl gap-2 font-semibold md:ml-14 ml-7"><img src="img/laravel.svg" className="md:h-5 h-5"></img>Laravel</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/css-3.svg" className="md:h-5 h-5"></img>CSS</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/php.svg" className="md:h-5 h-5"></img>PHP</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold "><img src="img/bootstrap.svg" className="md:h-5 h-5"></img>Bootstrap</p>
