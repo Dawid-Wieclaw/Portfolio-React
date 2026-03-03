@@ -17,7 +17,7 @@ export default function Projects() {
         {
             "id": 2,
             "title": "Klivio",
-            "img": "/img/project-img/Klivio.png",
+            "img": "img/project-img/Klivio.png",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis dignissimos assumenda alias pariatur ducimus enim, velit nulla saepe nesciunt architecto illo dolores rem nemo, cupiditate fugit provident reprehenderit aspernatur corporis!",
             "tech": ["HTML", "CSS"],
             "github": "https://github.com/dashboard",
@@ -27,7 +27,7 @@ export default function Projects() {
         {
             "id": 3,
             "title": "Klivio",
-            "img": "/img/project-img/Klivio.png",
+            "img": "img/project-img/Klivio.png",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis dignissimos assumenda alias pariatur ducimus enim, velit nulla saepe nesciunt architecto illo dolores rem nemo, cupiditate fugit provident reprehenderit aspernatur corporis!",
             "tech": ["HTML", "CSS"],
             "github": "https://github.com/dashboard",
