@@ -1,5 +1,5 @@
-import { AuroraText } from "./ui/aurora-text";
-import { TypingAnimation } from "./ui/typing-animation";
+import { AuroraText } from "../components/ui/aurora-text";
+import { TypingAnimation } from "../components/ui/typing-animation";
 import { Github, Mail, Linkedin, ArrowDown } from 'lucide-react';
 
 
@@ -17,7 +17,7 @@ export default function Hero() {
 
     return (
 
-        <div className="min-h-screen text-white flex flex-col items-center justify-center relative bg-black">
+        <div className="h-screen w-full overflow-x-hidden text-white flex flex-col items-center justify-center relative bg-black">
 
             <div className="flex md:text-9xl text-5xl font-bold">
                 <AuroraText>Dawid&nbsp;</AuroraText>

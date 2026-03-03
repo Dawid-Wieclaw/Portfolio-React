@@ -184,3 +184,21 @@
     --color-4: oklch(80.2% 0.134 225);
     --color-5: oklch(90.7% 0.231 133);
 }
+
+body {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}

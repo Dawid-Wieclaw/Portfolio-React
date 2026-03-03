@@ -1,5 +1,5 @@
-import Hero from "./components/Hero"
-import Projects from "./components/Projects"
+import Hero from "./Pages/Hero"
+import Projects from "./Pages/Projects"
 
 function App() {
   return (

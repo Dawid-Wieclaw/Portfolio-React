@@ -1,11 +1,10 @@
 import { ScrollVelocityContainer, ScrollVelocityRow } from "@/components/ui/scroll-based-velocity"
-import { BorderBeam } from "./ui/border-beam"
+import { BorderBeam } from "../components/ui/border-beam"
 
-export default function Projects() {
-
+export default function Technos () {
     return (
-        <div id="Projects" className="bg-black h-screen w-screen">
-            <div className=" bg-black md:py-15">
+        <>
+        <div className=" bg-black md:py-15">
                 <ScrollVelocityContainer className="opacity-50">
                     <ScrollVelocityRow baseVelocity={5}>
                         <div className="flex md:gap-20 gap-8 text-white">
@@ -27,14 +26,6 @@ export default function Projects() {
                 </ScrollVelocityContainer>
 
             </div>
-
-
-            {/* <div className="flex justify-center items-center">
-                <div className="relative h-250 bg-zinc-800 m-50 w-full overflow-hidden">
-                    <BorderBeam />
-                </div>
-
-            </div> */}
-        </div>
+        </>
     )
 }
