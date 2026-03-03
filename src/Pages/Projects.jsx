@@ -43,8 +43,8 @@ export default function Projects() {
                 <Technos></Technos>
             </div>
 
-            <div className=" flex-1 m-10 mx-50">
-                <div className="grid md:grid-cols-3 gap-50 p-10">
+            <div className=" flex-1 md:m-10 md:mx-50">
+                <div className="grid md:grid-cols-3 md:gap-50 gap-15 p-10">
                     {projects.map(p => (
                         <ProjectCard key={p.id} {...p} />
                     ))}
