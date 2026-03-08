@@ -39,7 +39,7 @@ export default function Projects() {
         <div id="Projects" className="bg-black min-h-screen flex flex-col items-center">
 
 
-            <div>
+            <div className="max-w-screen">
                 <Technos></Technos>
             </div>
 
