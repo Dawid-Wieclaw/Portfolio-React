@@ -16,6 +16,7 @@ export default function Technos() {
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/react.svg" className="md:h-5 h-5"></img>React</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/tailwindcss-icon.svg" className="md:h-5 h-5"></img>TailwindCss</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/docker.svg" className="md:h-5 h-5"></img>Docker</p>
+                            <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/github-icon.svg" className="md:h-7 h-5 bg-white rounded-full border border-white"></img>GitHub</p>
                         </div>
                     </ScrollVelocityRow>
 {/* 
