@@ -1,5 +1,4 @@
 import { ScrollVelocityContainer, ScrollVelocityRow } from "@/components/ui/scroll-based-velocity"
-import { BorderBeam } from "../components/ui/border-beam"
 
 export default function Technos() {
     return (
@@ -16,6 +15,7 @@ export default function Technos() {
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/javascript.svg" className="md:h-5 h-5"></img>JavaScript</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/react.svg" className="md:h-5 h-5"></img>React</p>
                             <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/tailwindcss-icon.svg" className="md:h-5 h-5"></img>TailwindCss</p>
+                            <p className="flex items-center md:text-xl gap-2 font-semibold"><img src="img/docker.svg" className="md:h-5 h-5"></img>Docker</p>
                         </div>
                     </ScrollVelocityRow>
 {/* 
