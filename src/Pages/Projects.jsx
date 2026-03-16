@@ -86,7 +86,7 @@ export default function Projects() {
 
             <h2 className="mt-10 mb-16 text-5xl font-bold text-gray-300">Projets</h2>
 
-            <div className=" flex-1 lg:mx-50 mx-16">
+            <div className=" flex-1 lg:mx-50 md:mx-16 mx-5">
                 <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 md:gap-30 gap-16">
                     {projects.reverse().map((p, index) => (
                         <ProjectCard key={p.id} {...p} index={index} />
