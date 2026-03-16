@@ -8,7 +8,7 @@ export default function Projects() {
         {
             "id": 1,
             "title": "Klivio",
-            "img": "img/project-img/Klivio.png",
+            "img": "img/Klivio.png",
             "type": "Individuel",
             "description": "Klivio, un site de vente de formations. Premier projet de la première année de formation a la Web Academie de Epitech réalisé avec HTML et CSS",
             "tech": ["HTML", "CSS"],
@@ -18,7 +18,7 @@ export default function Projects() {
         {
             "id": 2,
             "title": "Klivio 2",
-            "img": "public/img/Klivio2.png",
+            "img": "img/Klivio2.png",
             "type": "Individuel",
             "description": "Deuxième partie du premier projet de la formation, Klivio 2 — design libre réalisé en HTML et Tailwind.",
             "tech": ["HTML", "TAILWIND"],
@@ -28,7 +28,7 @@ export default function Projects() {
         {
             "id": 3,
             "title": "Portfolio",
-            "img": "public/img/Portfolio.png",
+            "img": "img/Portfolio.png",
             "type": "Individuel",
             "description": "Portfolio personnel réalisé avec Jekyll, un générateur de sites statiques en Ruby. Déployé sur GitHub Pages avec un design minimaliste et responsive.",
             "tech": ["JEKYLL"],
@@ -38,7 +38,7 @@ export default function Projects() {
         {
             "id": 4,
             "title": "CV Maker",
-            "img": "img/project-img/cv-generator.png",
+            "img": "img/cv-generator.png",
             "type": "Individuel",
             "description": "CV Maker — Générateur de CV en PHP/JS avec deux templates, formulaire dynamique et export PDF sécurisé via HTMLPurifier.",
             "tech": ["PHP", "JavaScript", "HTML", "BOOTSTRAP"],
@@ -48,7 +48,7 @@ export default function Projects() {
         {
             "id": 5,
             "title": "Snake",
-            "img": "public/img/Snake.png",
+            "img": "img/Snake.png",
             "type": "Personnel",
             "description": "Snake — Mini jeu classique développé en JavaScript vanilla pour pratiquer la manipulation du DOM, la gestion des événements clavier et la logique de jeu.",
             "tech": ["JavaScript"],
@@ -58,7 +58,7 @@ export default function Projects() {
         {
             "id": 6,
             "title": "My Cinema",
-            "img": "img/project-img/MyCinema.png",
+            "img": "img/MyCinema.png",
             "type": "Individuel",
             "description": "MyCinema - Application web de gestion de cinéma en PHP vanilla et JavaScript. Architecture MVC avec une API REST, requêtes PDO préparées et frontend dynamique via fetch() pour administrer films, salles et séances.",
             "tech": ["PHP", "JavaScript", "HTML", "CSS"],
@@ -68,7 +68,7 @@ export default function Projects() {
         {
             "id": 7,
             "title": "Nexus Platform",
-            "img": "img/project-img/Connectin.png",
+            "img": "img/Connectin.png",
             "type": "Groupe (2)",
             "description": "Nexus Platform — Projet de groupe, mini réseau social destiné aux entreprises pour faciliter la communication interne entre employés. Première découverte des frameworks Laravel et React, avec une API REST côté back-end et une interface dynamique côté front-end.",
             "tech": ["React", "Laravel", "TAILWIND"],
