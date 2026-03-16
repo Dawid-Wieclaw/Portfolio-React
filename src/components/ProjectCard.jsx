@@ -11,7 +11,7 @@ export default function ProjectCard({ id, img, type, title, description, tech, g
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: true }}
-
+ bg
             className=" text-white rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition flex flex-col justify-between"
             onClick={() => window.open(github, "_blank")}>
 
