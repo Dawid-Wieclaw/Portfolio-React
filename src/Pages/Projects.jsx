@@ -94,6 +94,7 @@ export default function Projects() {
                 </div>
             </div>
 
+            <hr className="w-screen mt-10 text-gray-700"></hr>
         </div>
     )
 }
