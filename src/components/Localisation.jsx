@@ -6,7 +6,7 @@ export default function ContactForm() {
     return (
         <div className="relative rounded-xl overflow-hidden border border-zinc-800 hover:border-zinc-700 transition">
 
-            <div className="absolute inset-0 bg-[url('img/Paris(modification).jpg')] bg-cover bg-center opacity-50"></div>
+            <div className="absolute inset-0 bg-[url('/img/Paris(modification).jpg')] bg-cover bg-center opacity-50"></div>
 
             <div className="absolute inset-0 from-transparent via-zinc-950/60 to-zinc-950"></div>
 
