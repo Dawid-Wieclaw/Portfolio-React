@@ -1,4 +1,5 @@
 import { AuroraText } from "../components/ui/aurora-text";
+import { PulsatingButton } from "../components/ui/pulsating-button"
 import { Github, Mail, Linkedin, ArrowDown } from 'lucide-react';
 
 
@@ -59,14 +60,16 @@ export default function Hero() {
             </div>
 
             <div className="mt-25">
-                <a className=" md:text-2xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
-                    onClick={() => scrollToSection("Projects")}
-                >
-                    <ArrowDown></ArrowDown>
-                </a>
+                <PulsatingButton>
+                    <a className=" md:text-2xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
+                        onClick={() => scrollToSection("Projects")}
+                    >
+                        <ArrowDown></ArrowDown>
+                    </a>
+                </PulsatingButton>
             </div>
 
 
-        </div>
+        </div >
     )
 }
