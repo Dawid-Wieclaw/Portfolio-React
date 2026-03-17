@@ -17,7 +17,7 @@ export default function Hero() {
 
     return (
 
-        <div className="h-screen w-full overflow-x-hidden text-white flex flex-col items-center justify-center relative bg-black">
+        <div className="h-screen w-full overflow-x-hidden text-white flex flex-col items-center justify-center relative bg-zinc-950">
 
             <div className="flex md:text-9xl text-5xl font-bold">
                 <AuroraText>Dawid&nbsp;</AuroraText>

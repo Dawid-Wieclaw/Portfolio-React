@@ -3,7 +3,7 @@ import { ScrollVelocityContainer, ScrollVelocityRow } from "@/components/ui/scro
 export default function Technos() {
     return (
         <>
-            <div className=" bg-black md:py-5">
+            <div className=" bg-zinc-950 md:py-5">
                 <ScrollVelocityContainer className="opacity-50">
                     <ScrollVelocityRow baseVelocity={3}>
                         <div className="flex md:gap-16 gap-8 text-white">

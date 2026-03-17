@@ -77,7 +77,7 @@ export default function Projects() {
     ]
 
     return (
-        <div id="Projects" className="bg-black min-h-screen flex flex-col items-center">
+        <div id="Projects" className="bg-zinc-950 min-h-screen flex flex-col items-center pb-50">
 
             <h2 className="mt-10  text-5xl font-bold text-gray-400">Projets</h2>
 
@@ -94,7 +94,7 @@ export default function Projects() {
                 </div>
             </div>
 
-            <hr className="mt-50"></hr>
+            {/* <hr className="mt-50 w-screen"></hr> */}
         </div>
     )
 }

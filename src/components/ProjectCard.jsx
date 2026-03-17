@@ -12,7 +12,7 @@ export default function ProjectCard({ id, img, type, title, description, tech, g
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: true }}
  bg
-            className=" text-white rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition flex flex-col justify-between"
+            className=" text-white rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition flex flex-col justify-between cursor-pointer"
             onClick={() => window.open(github, "_blank")}>
 
             <div className="flex flex-col self-start">
