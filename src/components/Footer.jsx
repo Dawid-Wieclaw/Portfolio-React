@@ -13,11 +13,15 @@ export default function Footer() {
                 </div>
 
                 <div className='flex gap-5 items-center'>
-                    <a href='https://github.com/Dawid-Wieclaw' target='_blank' className='hover:text-white'><Github></Github></a>
-                    <Mail href="mailto:dawid.wieclaw@epitech.eu" target='_blank' className='hover:text-white'></Mail>
-                    <Linkedin href='' target='_blank' className='hover:text-white'></Linkedin>
+                    <a href='https://github.com/Dawid-Wieclaw' target='_blank' className='hover:text-white transition'><Github></Github></a>
+                    <a href="mailto:dawid.wieclaw@epitech.eu" target='_blank'><Mail className='hover:text-white transition'></Mail></a>
+                    <a><Linkedin></Linkedin></a>
                 </div>
             </div>
+
+            <hr className='mx-3'></hr>
+
+            <p className='text-center py-10'>Développé avec React & Tailwind</p>
 
 
         </div>
