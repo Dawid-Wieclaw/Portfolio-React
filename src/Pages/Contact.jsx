@@ -37,7 +37,7 @@ export default function Contact() {
     return (
         <div className="w-screen min-h-fit bg-zinc-950 flex flex-col gap-30 pt-15 items-center">
 
-            <div className="md:w-3/4 w-11/12 flex flex-col gap-5 border border-gray-800 rounded-xl p-10">
+            <div className=" lg:w-1/2 md:w-3/4 w-11/12 flex flex-col gap-5 border border-gray-800 rounded-xl p-10">
 
                 <h2 className="pb-10 text-center xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-gray-400 underline">Contactez-moi</h2>
 
