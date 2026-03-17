@@ -1,7 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import ContactInfo from "@/components/ContactInfo";
 import Footer from "@/components/Footer";
-import { Phone, Mail, MapPinned } from 'lucide-react';
+import { Phone, MailOpen, MapPinned } from 'lucide-react';
 
 
 export default function Contact() {
@@ -16,7 +16,7 @@ export default function Contact() {
 
         {
             "id": 2,
-            "Icon": Mail,
+            "Icon": MailOpen,
             "type": "Email :",
             "info": "dawid.wieclaw@epitech.eu",
         },
@@ -37,19 +37,19 @@ export default function Contact() {
 
     <div className="flex-1 w-screen">
         <div className="lg:mx-50 md:mx-16 mx-5 mt-10 flex flex-col gap-5 xl:flex-row justify-center xl:gap-10">
-            <div className="xl:mt-10 xl:w-1/3 xl:flex xl:flex-col xl:gap-5">
+            <div className="xl:mt-10 2xl:w-1/3 flex flex-col gap-5">
                 {contact.map((c) =>
                     <ContactInfo key={c.id} {...c}></ContactInfo>
                 )}
             </div>
 
-            <div className="xl:w-1/3">
+            <div className="2xl:w-1/3">
                 <ContactForm></ContactForm>
             </div>
         </div>
     </div>
 
-    {/* Footer toujours en bas */}
+
     <Footer></Footer>
 
 </div>
