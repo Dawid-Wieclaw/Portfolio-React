@@ -10,8 +10,9 @@ export default function Contact() {
         {
             "id": 1,
             "Icon": Phone,
-            "type": "Telephone :",
+            "type": "Téléphone :",
             "info": "+33 7 83 05 57 28",
+            "href": "tel:+33 7 83 05 57 28"
         },
 
         {
@@ -19,6 +20,7 @@ export default function Contact() {
             "Icon": MailOpen,
             "type": "Email :",
             "info": "dawid.wieclaw@epitech.eu",
+            "href": "mailto:dawid.wieclaw@epitech.eu"
         },
 
         {
@@ -26,6 +28,7 @@ export default function Contact() {
             "Icon": MapPinned,
             "type": "Localisation :",
             "info": "Paris",
+            "href": "https://www.google.com/maps/place/Paris/@48.8589385,2.2646341,12z/data=!3m1!4b1!4m6!3m5!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.8575475!4d2.3513765!16zL20vMDVxdGo?entry=ttu&g_ep=EgoyMDI2MDMxNS4wIKXMDSoASAFQAw%3D%3D"
         },
     ]
 
@@ -33,7 +36,7 @@ export default function Contact() {
     return (
    <div className="w-full min-h-screen pt-10 bg-black flex flex-col">
 
-    <h2 className="pt-10 text-center text-5xl font-bold text-gray-300">Contact</h2>
+    <h2 className="pt-10 text-center text-5xl font-bold text-gray-400">Contactez-moi</h2>
 
     <div className="flex-1 w-screen">
         <div className="lg:mx-50 md:mx-16 mx-5 mt-10 flex flex-col gap-5 xl:flex-row justify-center xl:gap-10">

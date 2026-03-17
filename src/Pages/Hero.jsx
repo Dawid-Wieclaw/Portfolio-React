@@ -60,16 +60,14 @@ export default function Hero() {
             </div>
 
             <div className="mt-25">
-                <PulsatingButton>
-                    <a className=" md:text-2xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
-                        onClick={() => scrollToSection("Projects")}
-                    >
-                        <ArrowDown></ArrowDown>
-                    </a>
-                </PulsatingButton>
+                <a className=" md:text-4xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
+                    onClick={() => scrollToSection("Projects")}
+                >
+                <ArrowDown></ArrowDown>
+                </a>
             </div>
 
 
-        </div >
+        </div>
     )
 }
