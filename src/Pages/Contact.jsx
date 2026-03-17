@@ -39,22 +39,21 @@ export default function Contact() {
 
             <h2 className="pt-10 text-center xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-gray-400">Contactez-moi</h2>
 
-            <div className="flex-1 w-screen">
-                <div className="lg:mx-50 md:mx-16 mx-5 mt-10 flex flex-col gap-5 xl:flex-row justify-center xl:gap-10">
-                    <div className="xl:mt-10 2xl:w-1/3 flex flex-col gap-5">
+            <div className="flex-1">
+                <div className="lg:mx-50 md:mx-16 mx-15 mt-10 flex flex-col xl:flex-row justify-center items-start gap-5 xl:gap-10">
+
+                    <div className="w-full xl:w-1/3 flex flex-col gap-5">
                         {contact.map((c) =>
-                            <ContactInfo key={c.id} {...c}></ContactInfo>
+                            <ContactInfo key={c.id} {...c} />
                         )}
                     </div>
 
-                    <div className="xl:mt-10 2xl:w-1/3 md:w-2/5 w-full ">
-                        <Localisation></Localisation>
+                    <div className="w-full xl:w-1/3">
+                        <Localisation />
                     </div>
+
                 </div>
             </div>
-
-
-            <Footer></Footer>
 
         </div>
     )
