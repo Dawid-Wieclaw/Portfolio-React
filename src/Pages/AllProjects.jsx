@@ -87,17 +87,14 @@ export default function AllProjects() {
     return (
         <div id="Projects" className="bg-zinc-950  flex flex-col items-center relative">
 
-            <ArrowBigLeft className="text-gray-400 absolute top-5 left-2"
-                onClick={() => navigate('/')} />
-
-            <h2 className="mt-10 text-5xl font-bold text-gray-400">Tous mes projets</h2>
+            <h2 className="mt-10 text-5xl font-bold text-gray-400 text-center">Tous mes projets</h2>
 
             <div className="max-w-screen py-5">
                 <Technos></Technos>
             </div>
 
 
-            <div className=" flex-1 xl:mx-50 md:mx-5 mx-15">
+            <div className=" flex-1 xl:mx-50 md:mx-15 mx-5">
                 <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 md:gap-30 lg:gap-10 gap-5">
                     {projects.reverse().map((p, index) => (
                         <ProjectCard key={p.id} {...p} index={index} />

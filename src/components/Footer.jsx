@@ -15,6 +15,7 @@ export default function Footer() {
                 <div className='flex gap-5 items-center'>
                     <a href='https://github.com/Dawid-Wieclaw' target='_blank' className='hover:text-white transition'><Github></Github></a>
                     <a href="mailto:dawid.wieclaw@epitech.eu" target='_blank'><Mail className='hover:text-white transition'></Mail></a>
+                    <a className=" md:text-2xl text-lg m-auto font-bold text-gray-600 hover:text-white transition md:w-10 " href="img/Dawid-Wieclaw-CV.pdf" target="_blank">CV</a>
                 </div>
             </div>
 

@@ -75,13 +75,7 @@ export default function Projects() {
                 </Link>
                 </div>
 
-                <div className="">
-                    <a className=" md:text-4xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
-                        onClick={() => scrollToSection("contact")}
-                    >
-                        <ArrowDown></ArrowDown>
-                    </a>
-                </div>
+
             </div>
 
         </div>
