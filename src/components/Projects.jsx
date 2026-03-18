@@ -67,7 +67,7 @@ export default function Projects() {
                     {projects.reverse().map((p, index) => (
                         <ProjectCard key={p.id} {...p} index={index} />
                     ))}
-                    <div className="text-white flex justify-center items-center 2xl:hidden">
+                    <div className="text-white flex justify-center items-center 2xl:hidden mt-10">
                         <Link to='/AllProjects'
                             aria-label="Aller vers tous mes projets"
                             onClick={() => window.scrollTo({ top : 0 })}>
