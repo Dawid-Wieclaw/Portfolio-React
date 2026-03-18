@@ -54,8 +54,11 @@ export default function Hero() {
 
             <div className="mt-25">
                 <a className=" md:text-4xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
-                href="#Projects"
-                    onClick={() => scrollToSection("Projects")}
+                    href="#Projects"
+                    onClick={(e) => {
+                        e.preventDefault()
+                        scrollToSection('Projects')
+                    }}
                     aria-label="Aller vers la section projets"
                 >
                     <ArrowDown aria-hidden="true"></ArrowDown>
