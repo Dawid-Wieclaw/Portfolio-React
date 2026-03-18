@@ -92,7 +92,7 @@ export default function AllProjects() {
     ]
 
     return (
-        <div id="Projects" className="bg-zinc-950  flex flex-col items-center relative">
+        <div id="AllProjects" className="bg-zinc-950  flex flex-col items-center relative">
 
             <h2 className="mt-10 text-5xl font-bold text-gray-300 text-center">Tous mes projets</h2>
 
@@ -106,26 +106,26 @@ export default function AllProjects() {
                     {projects.reverse().map((p, index) => (
                         <ProjectCard key={p.id} {...p} index={index} />
                     ))}
+
+                    <div className="flex justify-center items-center">
+                        <Link to='/'
+                            aria-label="Retour vers la page d'accueil"
+                            onClick={() => {
+                                setTimeout(() => {
+                                    document.getElementById('Projects')?.scrollIntoView({ behavior: "smooth" })
+                                }, 100)
+                            }}>
+                            <button className="flex gap-3 items-center rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition mt-10 p-2 md:text-xl text-lg text-gray-400">
+                                <ArrowLeft /> Retour
+                            </button>
+                        </Link>
+
+                    </div>
+
                 </div>
             </div>
 
-            <div className="flex flex-col gap-10 items-center mt-5">
-                <div className="w-full h-full flex justify-center">
-                    <Link to='/'
-                        aria-label="Retour vers la page d'accueil"
-                        onClick={() => {
-                            setTimeout(() => {
-                                document.getElementById('Projects')?.scrollIntoView({ behavior: "smooth" })
-                            }, 100)
-                        }}>
-                        <button className="flex gap-3 items-center rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition px-5 p-3 md:text-2xl text-lg text-gray-400">
-                            <ArrowLeft /> Retour
-                        </button>
-                    </Link>
-                </div>
-            </div>
-
-            <div className="w-screen pt-30">
+            <div className="w-screen pt-20">
                 <Footer></Footer>
             </div>
 
