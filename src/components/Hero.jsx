@@ -26,7 +26,7 @@ export default function Hero() {
             <p className="md:text-4xl text-2xl text-gray-400 ">Web Developer</p>
 
 
-            <div className="flex flex-col text-gray-300 items-center md:mt-20 mt-5">
+            <div className="flex flex-col text-gray-400 items-center md:mt-20 mt-5">
                 <AuroraText className="md:text-4xl text-lg font-bold">RECHERCHE ALTERNANCE</AuroraText>
                 <p className="md:text-3xl text-sm font-semibold">Septembre 2026 / 14 mois</p>
             </div>
