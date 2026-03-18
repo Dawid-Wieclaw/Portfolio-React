@@ -34,7 +34,7 @@ export default function Contact() {
 
 
     return (
-        <div id="contact" className="w-screen min-h-fit max-h-screen bg-zinc-950 flex flex-col gap-30 pt-15 items-center">
+        <div id="contact" className="w-screen min-h-fit h-fit bg-zinc-950 flex flex-col gap-30 pt-15 items-center">
 
             <div className=" lg:w-1/2 md:w-3/4 w-11/12 flex flex-col gap-5 border border-gray-800 rounded-xl p-10">
 

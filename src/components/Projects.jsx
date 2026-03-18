@@ -50,7 +50,7 @@ export default function Projects() {
     ]
 
     return (
-        <div id="Projects" className="bg-zinc-950 max-h-screen flex flex-col items-center pb-50">
+        <div id="Projects" className="bg-zinc-950 h-fit flex flex-col items-center pb-50">
 
             <h2 className="mt-10  text-5xl font-bold text-gray-400">Projets récents</h2>
 
