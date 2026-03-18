@@ -59,7 +59,7 @@ export default function Projects() {
             </div>
 
 
-            <div className=" flex-1 xl:mx-50 md:mx-5 mx-15">
+            <div className=" flex-1 xl:mx-50 md:mx-15 mx-5">
                 <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 md:gap-30 lg:gap-10 gap-5">
                     {projects.reverse().map((p, index) => (
                         <ProjectCard key={p.id} {...p} index={index} />
@@ -71,7 +71,7 @@ export default function Projects() {
                 <div className="w-full h-full flex justify-center">
                 <Link to='/AllProjects'
                 onClick={() => window.scrollTo(0,0)}>
-                    <button className="rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition px-5 p-3 text-2xl text-gray-400 flex gap-3 items-center">Tous mes projets <ArrowRight /></button>
+                    <button className="rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition px-5 p-3 md:text-2xl text-lg text-gray-400 flex gap-3 items-center">Tous mes projets <ArrowRight /></button>
                 </Link>
                 </div>
 

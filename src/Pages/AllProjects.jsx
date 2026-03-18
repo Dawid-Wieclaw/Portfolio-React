@@ -113,7 +113,7 @@ export default function AllProjects() {
                                 document.getElementById('Projects')?.scrollIntoView({ behavior: "smooth" })
                             }, 100) 
                         }}>
-                        <button className="flex gap-3 items-center rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition px-5 p-3 text-2xl text-gray-400">
+                        <button className="flex gap-3 items-center rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition px-5 p-3 md:text-2xl text-lg text-gray-400">
                             <ArrowLeft /> Retour
                         </button>
                     </Link>
