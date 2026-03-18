@@ -1,16 +1,21 @@
-import Contact from "./Pages/Contact";
-import Hero from "./Pages/Hero"
-import Projects from "./Pages/Projects"
+import AllProjects from "@/Pages/AllProjects";
+import Home from "@/Pages/Home";
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 
 function App() {
   return (
     <div>
-      <Hero></Hero>
-      <Projects></Projects>
-      <Contact></Contact>
+      <BrowserRouter basename="/Portfolio-React/">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/AllProjects" element={<AllProjects />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
-  
+
 }
 
 export default App;
