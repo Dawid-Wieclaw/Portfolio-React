@@ -31,7 +31,7 @@ export default function AllProjects() {
             "alt": "Page d'accueil du site Klivio permettant d'acheter des formations. Version tailwind gris et orange",
             "type": "Individuel",
             "description": "Deuxième partie du premier projet de la formation, Klivio 2 — design libre réalisé en HTML et Tailwind.",
-            "tech": ["HTML", "TAILWIND"],
+            "tech": ["HTML", "Tailwind"],
             "github": "https://github.com/Dawid-Wieclaw/klivio-2",
         },
 
@@ -53,7 +53,7 @@ export default function AllProjects() {
             "alt": "Interface avec formulaire a remplir a gauche et cv completé dynamiquement a droite",
             "type": "Individuel",
             "description": "CV Maker — Générateur de CV en PHP/JS avec deux templates, formulaire dynamique et export PDF sécurisé via HTMLPurifier.",
-            "tech": ["PHP", "JavaScript", "HTML", "BOOTSTRAP"],
+            "tech": ["PHP", "JavaScript", "HTML", "Bootstrap"],
             "github": "https://github.com/Dawid-Wieclaw/cv-generator",
         },
 
@@ -86,7 +86,7 @@ export default function AllProjects() {
             "alt": "Interface de Nexus Platform, réseau social d'entreprise",
             "type": "Groupe (2)",
             "description": "Nexus Platform — Projet de groupe, mini réseau social destiné aux entreprises pour faciliter la communication interne entre employés. Première découverte des frameworks Laravel et React, avec une API REST côté back-end et une interface dynamique côté front-end.",
-            "tech": ["React", "Laravel", "TAILWIND"],
+            "tech": ["React", "Laravel", "Tailwind"],
             "github": "https://github.com/Dawid-Wieclaw/Connect-in",
         }
     ]
@@ -115,8 +115,8 @@ export default function AllProjects() {
                                     document.getElementById('Projects')?.scrollIntoView({ behavior: "smooth" })
                                 }, 100)
                             }}>
-                            <button className="flex gap-3 items-center rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition mt-10 p-2 md:text-xl text-lg text-gray-400">
-                                <ArrowLeft /> Retour
+                            <button className="flex gap-1 items-center rounded-lg bg-zinc-950 border hover:bg-zinc-800 border-zinc-800 hover:border-zinc-700 hover:border-2 transition mt-10 p-2 md:text-xl text-lg text-gray-400">
+                                <ArrowLeft className="w-6 h-6" /> Retour
                             </button>
                         </Link>
 

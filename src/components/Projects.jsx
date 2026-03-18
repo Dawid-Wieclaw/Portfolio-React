@@ -21,23 +21,12 @@ export default function Projects() {
         {
             "id": 1,
             "title": "Klivio",
-            "img": "img/Klivio2.png",
-            "alt": "Page d'accueil du site Klivio permettant d'acheter des formations. Version tailwind gris et orange",
+            "img": "img/Klivio.png",
+            "alt": "Page d'accueil du site Klivio permettant d'acheter des formations.",
             "type": "Individuel",
-            "description": "Klivio, un site de vente de formations, Klivio — design libre réalisé en HTML et Tailwind.",
-            "tech": ["HTML", "TAILWIND"],
+            "description": "Klivio, un site de vente de formations. Premier projet de la première année de formation a la Web Academie de Epitech réalisé avec HTML et CSS",
+            "tech": ["HTML", "Tailwind"],
             "github": "https://github.com/Dawid-Wieclaw/klivio-2",
-        },
-
-        {
-            "id": 2,
-            "title": "CV Maker",
-            "img": "img/cv-generator.png",
-            "alt": "Interface avec formulaire a remplir a gauche et cv completé dynamiquement a droite",
-            "type": "Individuel",
-            "description": "CV Maker — Générateur de CV en PHP/JS avec deux templates, formulaire dynamique et export PDF sécurisé via HTMLPurifier.",
-            "tech": ["PHP", "JavaScript", "HTML", "BOOTSTRAP"],
-            "github": "https://github.com/Dawid-Wieclaw/cv-generator",
         },
 
         {
@@ -47,9 +36,20 @@ export default function Projects() {
             'alt': "Interface de Nexus Platform, réseau social d'entreprise",
             "type": "Groupe (2)",
             "description": "Nexus Platform — Projet de groupe, mini réseau social destiné aux entreprises pour faciliter la communication interne entre employés. Première découverte des frameworks Laravel et React, avec une API REST côté back-end et une interface dynamique côté front-end.",
-            "tech": ["React", "Laravel", "TAILWIND"],
+            "tech": ["React", "Laravel", "Tailwind"],
             "github": "https://github.com/Dawid-Wieclaw/Connect-in",
-        }
+        },
+
+        {
+            "id": 2,
+            "title": "CV Maker",
+            "img": "img/cv-generator.png",
+            "alt": "Interface avec formulaire a remplir a gauche et cv completé dynamiquement a droite",
+            "type": "Individuel",
+            "description": "CV Maker — Générateur de CV en PHP/JS avec deux templates, formulaire dynamique et export PDF sécurisé via HTMLPurifier.",
+            "tech": ["PHP", "JavaScript", "HTML", "Bootsrap"],
+            "github": "https://github.com/Dawid-Wieclaw/cv-generator",
+        },
     ]
 
     return (
@@ -70,7 +70,7 @@ export default function Projects() {
                     <div className="text-white flex justify-center items-center 2xl:hidden mt-10">
                         <Link to='/AllProjects'
                             aria-label="Aller vers tous mes projets"
-                            onClick={() => window.scrollTo({ top : 0 })}>
+                            onClick={() => window.scrollTo({ top: 0 })}>
                             <Plus></Plus>
                         </Link>
                     </div>

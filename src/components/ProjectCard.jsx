@@ -21,7 +21,7 @@ export default function ProjectCard({ id, img, alt, type, title, description, te
             </div>
 
             <div className="p-5 flex flex-col">
-                <div className="flex mt-3 md:p-2 lg:text-lg md:text-md text-xs gap-5 text-gray-300 flex-wrap ">
+                <div className="flex lg:text-lg md:text-md text-xs gap-3 text-gray-300 flex-wrap">
                     {tech.map(t =>
                         <p key={t} className="border border-gray-700 rounded-full px-3">{t}</p>
                     )}
