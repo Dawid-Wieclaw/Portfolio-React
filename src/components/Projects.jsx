@@ -77,7 +77,8 @@ export default function Projects() {
                 </div>
 
                 <div className="text-white justify-center items-center hidden 2xl:block">
-                    <Link to={'/AllProjects'}>
+                    <Link to={'/AllProjects'}
+                    aria-label="Aller vers tous mes projets">
                         <Plus></Plus>
                     </Link>
                 </div>
