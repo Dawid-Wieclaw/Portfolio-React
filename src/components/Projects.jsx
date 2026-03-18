@@ -22,6 +22,7 @@ export default function Projects() {
             "id": 1,
             "title": "Klivio",
             "img": "img/Klivio2.png",
+            "alt": "Page d'accueil du site Klivio permettant d'acheter des formations. Version tailwind gris et orange",
             "type": "Individuel",
             "description": "Klivio, un site de vente de formations, Klivio — design libre réalisé en HTML et Tailwind.",
             "tech": ["HTML", "TAILWIND"],
@@ -32,6 +33,7 @@ export default function Projects() {
             "id": 2,
             "title": "CV Maker",
             "img": "img/cv-generator.png",
+            "alt": "Interface avec formulaire a remplir a gauche et cv completé dynamiquement a droite",
             "type": "Individuel",
             "description": "CV Maker — Générateur de CV en PHP/JS avec deux templates, formulaire dynamique et export PDF sécurisé via HTMLPurifier.",
             "tech": ["PHP", "JavaScript", "HTML", "BOOTSTRAP"],
@@ -42,6 +44,7 @@ export default function Projects() {
             "id": 3,
             "title": "Nexus Platform",
             "img": "img/Connectin.png",
+            'alt': "Interface de Nexus Platform, réseau social d'entreprise",
             "type": "Groupe (2)",
             "description": "Nexus Platform — Projet de groupe, mini réseau social destiné aux entreprises pour faciliter la communication interne entre employés. Première découverte des frameworks Laravel et React, avec une API REST côté back-end et une interface dynamique côté front-end.",
             "tech": ["React", "Laravel", "TAILWIND"],
@@ -52,7 +55,7 @@ export default function Projects() {
     return (
         <div id="Projects" className="bg-zinc-950 h-fit flex flex-col items-center pb-50">
 
-            <h2 className="mt-10  text-5xl font-bold text-gray-400">Projets récents</h2>
+            <h2 className="mt-10  text-5xl font-bold text-gray-300">Projets récents</h2>
 
             <div className="max-w-screen py-5">
                 <Technos></Technos>
@@ -69,10 +72,10 @@ export default function Projects() {
 
             <div className="flex flex-col gap-10 items-center mt-5">
                 <div className="w-full h-full flex justify-center">
-                <Link to='/AllProjects'
-                onClick={() => window.scrollTo(0,0)}>
-                    <button className="rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition px-5 p-3 md:text-2xl text-lg text-gray-400 flex gap-3 items-center">Tous mes projets <ArrowRight /></button>
-                </Link>
+                    <Link to='/AllProjects'
+                        onClick={() => window.scrollTo(0, 0)}>
+                        <button className="rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition px-5 p-3 md:text-2xl text-lg text-gray-300 flex gap-3 items-center">Tous mes projets <ArrowRight /></button>
+                    </Link>
                 </div>
 
 

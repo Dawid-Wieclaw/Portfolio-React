@@ -3,7 +3,7 @@ import { Github, Mail, Linkedin } from 'lucide-react';
 
 export default function Footer() {
     return (
-        <div className="text-gray-600">
+        <div className="text-gray-400">
             <hr className='border-zinc-700'></hr>
 
             <div className="flex justify-between py-8 px-10">
@@ -13,9 +13,9 @@ export default function Footer() {
                 </div>
 
                 <div className='flex gap-5 items-center'>
-                    <a href='https://github.com/Dawid-Wieclaw' target='_blank' className='hover:text-white transition'><Github></Github></a>
-                    <a href="mailto:dawid.wieclaw@epitech.eu" target='_blank'><Mail className='hover:text-white transition'></Mail></a>
-                    <a className=" md:text-2xl text-lg m-auto font-bold text-gray-600 hover:text-white transition md:w-10 " href="img/Dawid-Wieclaw-CV.pdf" target="_blank">CV</a>
+                    <a href='https://github.com/Dawid-Wieclaw' target='_blank' className='hover:text-gray-500 transition' aria-label='Voir mon github'><Github></Github></a>
+                    <a href="mailto:dawid.wieclaw@epitech.eu" target='_blank'><Mail className='hover:text-gray-500 transition' aria-label='Contactez moi par mail'></Mail></a>
+                    <a className=" md:text-2xl text-lg m-auto font-bold text-gray-400 hover:text-gray-500 transition md:w-10 " href="img/Dawid-Wieclaw-CV.pdf" target="_blank">CV</a>
                 </div>
             </div>
 

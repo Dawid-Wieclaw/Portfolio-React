@@ -17,6 +17,7 @@ export default function AllProjects() {
             "id": 1,
             "title": "Klivio",
             "img": "img/Klivio.png",
+            "alr": "Page d'accueil du site Klivio permettant d'acheter des formations",
             "type": "Individuel",
             "description": "Klivio, un site de vente de formations. Premier projet de la première année de formation a la Web Academie de Epitech réalisé avec HTML et CSS",
             "tech": ["HTML", "CSS"],
@@ -27,6 +28,7 @@ export default function AllProjects() {
             "id": 2,
             "title": "Klivio 2",
             "img": "img/Klivio2.png",
+            "alt": "Page d'accueil du site Klivio permettant d'acheter des formations. Version tailwind gris et orange",
             "type": "Individuel",
             "description": "Deuxième partie du premier projet de la formation, Klivio 2 — design libre réalisé en HTML et Tailwind.",
             "tech": ["HTML", "TAILWIND"],
@@ -37,6 +39,7 @@ export default function AllProjects() {
             "id": 3,
             "title": "Portfolio",
             "img": "img/Portfolio.png",
+            "alt": "Page hero de portfolioavec photo et liens de contact",
             "type": "Individuel",
             "description": "Portfolio personnel réalisé avec Jekyll, un générateur de sites statiques en Ruby. Déployé sur GitHub Pages avec un design minimaliste et responsive.",
             "tech": ["JEKYLL"],
@@ -47,6 +50,7 @@ export default function AllProjects() {
             "id": 4,
             "title": "CV Maker",
             "img": "img/cv-generator.png",
+            "alt": "Interface avec formulaire a remplir a gauche et cv completé dynamiquement a droite",
             "type": "Individuel",
             "description": "CV Maker — Générateur de CV en PHP/JS avec deux templates, formulaire dynamique et export PDF sécurisé via HTMLPurifier.",
             "tech": ["PHP", "JavaScript", "HTML", "BOOTSTRAP"],
@@ -57,6 +61,7 @@ export default function AllProjects() {
             "id": 5,
             "title": "Snake",
             "img": "img/Snake.png",
+            "alt": "Jeu Snake en JavaScript avec score affiché",
             "type": "Personnel",
             "description": "Snake — Mini jeu classique développé en JavaScript vanilla pour pratiquer la manipulation du DOM, la gestion des événements clavier et la logique de jeu.",
             "tech": ["JavaScript"],
@@ -67,6 +72,7 @@ export default function AllProjects() {
             "id": 6,
             "title": "My Cinema",
             "img": "img/MyCinema.png",
+            "alt": "Dashboard de My Cinema avec liste des films",
             "type": "Individuel",
             "description": "MyCinema - Application web de gestion de cinéma en PHP vanilla et JavaScript. Architecture MVC avec une API REST, requêtes PDO préparées et frontend dynamique via fetch() pour administrer films, salles et séances.",
             "tech": ["PHP", "JavaScript", "HTML", "CSS"],
@@ -77,6 +83,7 @@ export default function AllProjects() {
             "id": 7,
             "title": "Nexus Platform",
             "img": "img/Connectin.png",
+            "alt": "Interface de Nexus Platform, réseau social d'entreprise",
             "type": "Groupe (2)",
             "description": "Nexus Platform — Projet de groupe, mini réseau social destiné aux entreprises pour faciliter la communication interne entre employés. Première découverte des frameworks Laravel et React, avec une API REST côté back-end et une interface dynamique côté front-end.",
             "tech": ["React", "Laravel", "TAILWIND"],
@@ -87,7 +94,7 @@ export default function AllProjects() {
     return (
         <div id="Projects" className="bg-zinc-950  flex flex-col items-center relative">
 
-            <h2 className="mt-10 text-5xl font-bold text-gray-400 text-center">Tous mes projets</h2>
+            <h2 className="mt-10 text-5xl font-bold text-gray-300 text-center">Tous mes projets</h2>
 
             <div className="max-w-screen py-5">
                 <Technos></Technos>
@@ -105,10 +112,11 @@ export default function AllProjects() {
             <div className="flex flex-col gap-10 items-center mt-5">
                 <div className="w-full h-full flex justify-center">
                     <Link to='/'
+                        aria-label="Retour vers la page d'accueil"
                         onClick={() => {
                             setTimeout(() => {
                                 document.getElementById('Projects')?.scrollIntoView({ behavior: "smooth" })
-                            }, 100) 
+                            }, 100)
                         }}>
                         <button className="flex gap-3 items-center rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-500 hover:border-2 transition px-5 p-3 md:text-2xl text-lg text-gray-400">
                             <ArrowLeft /> Retour

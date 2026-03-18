@@ -6,8 +6,10 @@ export default function Home() {
     return (
         <div>
             <Hero></Hero>
-            <Projects></Projects>
-            <Contact></Contact>
+            <main>
+                <Projects></Projects>
+                <Contact></Contact>
+            </main>
         </div>
     )
 }

@@ -14,11 +14,11 @@ export default function ContactForm() {
                 <div className="relative z-10 flex flex-col p-5 gap-3 mt-20">
 
                     <div className=" rounded-2xl p-3 w-fit">
-                        <MapPinned size={32} className="text-white" />
+                        <MapPinned size={32} className="text-gray-300" />
                     </div>
 
-                    <h2 className="text-white text-2xl font-bold mt-2">Localisation</h2>
-                    <p className="text-white font-semibold">Paris, France</p>
+                    <h2 className="text-gray-300 text-2xl font-bold mt-2">Localisation</h2>
+                    <p className="text-gray-300 font-semibold">Paris, France</p>
 
                 </div>
             </a>

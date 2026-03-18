@@ -38,7 +38,7 @@ export default function Contact() {
 
             <div className=" lg:w-1/2 md:w-3/4 w-11/12 flex flex-col gap-5 border border-gray-800 rounded-xl p-10">
 
-                <h2 className="pb-10 text-center xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-gray-400 underline">Contactez-moi</h2>
+                <h2 className="pb-10 text-center xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-gray-300">Contactez-moi</h2>
 
                 <div className="flex flex-col gap-5">
                     {contact.map((c) =>
