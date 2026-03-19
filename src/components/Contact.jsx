@@ -1,7 +1,7 @@
 import ContactInfo from "@/components/ContactInfo";
 import Localisation from "@/components/Localisation";
 import Footer from "@/components/Footer";
-import { Phone, MailOpen, MapPinned, Github, ArrowUp, Linkedin } from 'lucide-react';
+import { Phone, MailOpen, Github, ArrowUp, Linkedin } from 'lucide-react';
 
 
 export default function Contact() {
