@@ -40,6 +40,12 @@ export default function Hero() {
                 </a>
 
                 <a className="text-gray-400 hover:text-gray-300"
+                    href="https://www.linkedin.com/in/dawid-wieclaw/"
+                    target="_blank">
+                    <Linkedin className="md:w-10 w-5" aria-label="Github"></Linkedin>
+                </a>
+
+                <a className="text-gray-400 hover:text-gray-300"
                     href="mailto:dawid.wieclaw@epitech.eu"
                     target="_blank">
                     <Mail className="md:w-10 w-5" aria-label="Mail"></Mail>

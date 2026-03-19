@@ -1,7 +1,7 @@
 import ContactInfo from "@/components/ContactInfo";
 import Localisation from "@/components/Localisation";
 import Footer from "@/components/Footer";
-import { Phone, MailOpen, MapPinned, Github, ArrowUp } from 'lucide-react';
+import { Phone, MailOpen, MapPinned, Github, ArrowUp, Linkedin } from 'lucide-react';
 
 
 export default function Contact() {
@@ -40,6 +40,14 @@ export default function Contact() {
             "info": "Dawid-Wieclaw",
             "href": "https://github.com/Dawid-Wieclaw"
         },
+
+        {
+            "id": 4,
+            "Icon": Linkedin,
+            "type": "Linkedin",
+            "info": "Dawid Wieclaw",
+            "href": "https://www.linkedin.com/in/dawid-wieclaw/"
+        }
     ]
 
 
@@ -64,12 +72,12 @@ export default function Contact() {
 
             <div className="">
                 <a className=" md:text-4xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
-                    href="#Projects"
+                    href="#Hero"
                     onClick={(e) => {
                         e.preventDefault()
-                        scrollToSection('Projects')
+                        scrollToSection('Hero')
                     }}
-                    aria-label="Aller vers la section projets"
+                    aria-label="Retour en haut de la page"
                 >
                     <ArrowUp aria-hidden="true"></ArrowUp>
                 </a>
