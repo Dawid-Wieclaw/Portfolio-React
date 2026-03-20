@@ -1,4 +1,4 @@
-import path from "path" // Ajoute cet import tout en haut
+import path from "path"
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
