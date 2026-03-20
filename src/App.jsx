@@ -8,7 +8,7 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/Portfolio-React/">
+      <BrowserRouter>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />}></Route>
