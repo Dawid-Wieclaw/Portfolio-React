@@ -71,7 +71,7 @@ export default function Contact() {
 
 
             <div className="">
-                <a className=" md:text-4xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
+                <a className=" md:text-4xl text-xl text-center font-bold text-gray-500 hover:text-gray-300 hidden 2xl:flex"
                     href="#Hero"
                     onClick={(e) => {
                         e.preventDefault()
