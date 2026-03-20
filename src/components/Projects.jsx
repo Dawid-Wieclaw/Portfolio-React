@@ -53,7 +53,7 @@ export default function Projects() {
     ]
 
     return (
-        <div id="Projects" className="min-h-screen bg-zinc-950 h-fit  flex flex-col items-center justify- pb-50">
+        <div id="Projects" className="min-h-screen bg-zinc-950 h-fit  flex flex-col items-center justify-between pb-50">
             <div>
                 <h2 className="mt-10 text-center text-5xl font-bold text-gray-300">Projets récents</h2>
 
@@ -87,17 +87,7 @@ export default function Projects() {
             </div>
 
 
-            {/* <div className="mt-10 flex-col gap-5 hidden 2xl:flex">
-                <a className=" md:text-4xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
-                    href="#Hero"
-                    onClick={(e) => {
-                        e.preventDefault()
-                        scrollToSection('Hero')
-                    }}
-                    aria-label="Aller vers la section hero"
-                >
-                    <ArrowUp aria-hidden="true"></ArrowUp>
-                </a>
+            <div className="flex-col gap-5 hidden 2xl:flex">
 
                 <a className=" md:text-4xl text-xl text-center font-bold text-gray-500 hover:text-gray-300"
                     href="#contact"
@@ -109,7 +99,7 @@ export default function Projects() {
                 >
                     <ArrowDown aria-hidden="true"></ArrowDown>
                 </a>
-            </div> */}
+            </div>
 
         </div>
     )
