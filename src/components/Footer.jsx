@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="text-gray-400">
             <hr className='border-zinc-700'></hr>
 
-            <div className="flex justify-between py-8 px-10">
+            <div className="flex justify-between py-8 px-5">
                 <div>
                     <h1 className="md:text-3xl text-2xl">Dawid Wieclaw</h1>
                     <p className='md:text-lg text-xs'>Développeur Web Full Stack</p>

@@ -52,7 +52,7 @@ export default function Contact() {
 
 
     return (
-        <div id="contact" className="w-screen min-h-fit h-fit bg-zinc-950 flex flex-col gap-30 pt-15 items-center ">
+        <div id="contact" className=" h-screen bg-zinc-950 flex flex-col justify-between pt-15 items-center ">
 
             <div className=" xl:w-1/2 md:w-10/12 w-11/12 flex flex-col gap-5 border border-gray-800 rounded-xl p-5">
                 <h2 className="pb-10 pt-5 text-center xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold text-gray-300">Contactez-moi</h2>
